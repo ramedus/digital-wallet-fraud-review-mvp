@@ -1,4 +1,4 @@
-# 3. Backlog – User Stories & Prioritization
+# 3. Backlog - User Stories & Prioritization
 
 ## Prioritization Approach
 - MoSCoW is used to define MVP scope
