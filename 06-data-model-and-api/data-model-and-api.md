@@ -131,6 +131,26 @@ The following API endpoints support the core fraud review flow in the MVP.
 **Purpose:**  
 Returns detailed information for a selected suspicious transaction.
 
+**Example Response:**
+```json
+{
+  "suspicious_id": "st_123",
+  "transaction_id": "tx_789",
+  "wallet_id": "w_456",
+  "user_id": "u_789",
+  "amount": 2500,
+  "currency": "TRY",
+  "transaction_type": "Transfer",
+  "country": "Turkey",
+  "channel": "Mobile",
+  "transaction_date": "2025-09-09T15:30:00Z",
+  "risk_score": 92,
+  "risk_reason": "Unusual country and high transaction amount",
+  "status": "NEW",
+  "sla_deadline": "2025-09-10T12:00:00Z",
+  "created_at": "2025-09-09T15:31:00Z"
+}
+```
 ---
 
 ### Submit Fraud Decision
