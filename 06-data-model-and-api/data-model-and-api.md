@@ -110,8 +110,7 @@ The following API endpoints support the core fraud review flow in the MVP.
 ### Get Suspicious Transaction Queue
 **GET** `/suspicious-transactions`
 
-**Purpose:**  
-Returns a prioritized list of suspicious transactions for fraud analysts.
+**Purpose:** Returns a prioritized list of suspicious transactions for fraud analysts.
 
 **Example Response:**
 ```json
