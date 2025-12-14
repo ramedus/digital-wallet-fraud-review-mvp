@@ -147,7 +147,7 @@ Stores the fraud analyst’s decision and reasoning.
   "decision": "BLOCK",
   "decision_reason": "Unusual country and high transaction amount"
 }
-
+```
 **Example Response:**
 ```json
 {
@@ -155,7 +155,7 @@ Stores the fraud analyst’s decision and reasoning.
   "status": "BLOCKED",
   "message": "Fraud decision successfully recorded."
 }
-
+```
 ---
 
 ### Get SLA Violations Report
@@ -194,4 +194,4 @@ It helps identify bottlenecks in fraud review processes and measure SLA complian
     }
   ]
 }
-
+```
