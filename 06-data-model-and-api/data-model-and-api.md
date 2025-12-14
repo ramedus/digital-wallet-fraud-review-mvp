@@ -125,6 +125,7 @@ Returns a prioritized list of suspicious transactions for fraud analysts.
   "sla_deadline": "2025-09-10T12:00:00Z"
 }
 
+...
 
 ### Get Suspicious Transaction Details
 **GET** `/suspicious-transactions/{id}`
