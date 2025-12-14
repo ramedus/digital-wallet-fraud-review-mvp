@@ -123,8 +123,7 @@ The following API endpoints support the core fraud review flow in the MVP.
   "status": "NEW",
   "sla_deadline": "2025-09-10T12:00:00Z"
 }
-
-...
+```
 
 ### Get Suspicious Transaction Details
 **GET** `/suspicious-transactions/{id}`
